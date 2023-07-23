@@ -27,7 +27,7 @@ To install the application you'll need to do the following:
 
 ## Usage
 
-A short video demonstration can be found here: NOT YET IMPLEMENTED
+A short video demonstration can be found here: [Click Here](https://drive.google.com/file/d/19on6DKwKIn1y7HXOQa1dM8gkvCxjFbtz/view)
 
 After the necessary dependencies have been installed, you have created and seeded the database, and you have started the local server by running the `npm run watch` command you can view various tables and their corresponding foreign keys using an API development platform like Insomnia, Postman, or other alternatives.
 
