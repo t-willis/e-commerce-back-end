@@ -2,7 +2,11 @@
 
 ## Description
 
-A Sequelize and MySQL2 backend database mock-up for e-commerce
+A simple Sequelize and MySQL2 backend database mock-up for e-commerce.
+
+Utilizing Sequelize I constructed a simple database comprised of four tables that all dynamically pull information from one another using foreign keys.
+
+I wanted to get more well acquainted with the world of ORMs and building a mock-up back end database for e-commerce was a great way to do so. I was forced to learn how to properly use models to construct a database instead of a base schema.sql, as well as how to properly construct API routes using Sequelize instead of MySQL. All in all this project was a great introduction to Sequelize and all the things that are made simpler with its use.
 
 ---
 
@@ -12,6 +16,7 @@ To install the application you'll need to do the following:
 
 - Clone the repository to your local machine
 - Navigate to the project repository
+- Change the information in the .env file to match your MySQL login information
 - Type `npm install` in the terminal to install dependencies
 - Log in to MySQL in your terminal
 - Run the command `source db/schema.sql` to create the database, then exit the MySQL shell by typing `exit` in your terminal
@@ -40,6 +45,9 @@ You can perform a Post operation to create a new category, product, or tag. You 
 
 ## Technologies
 
-
+- [dotenv](https://www.npmjs.com/package/dotenv) - Used to hide MySQL login information and specify database to use.
+- [Express](https://expressjs.com/) - Back-end web app framework for building RESTful APIs with Node.js.
+- [Mysql2](https://www.npmjs.com/package/mysql2) - MySQL client for Node.js, dependency of Sequelize
+- [Sequelize](https://sequelize.org/) - Node.js ORM for MySQL.
 
 ---
